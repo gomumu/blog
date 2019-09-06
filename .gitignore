@@ -9,3 +9,5 @@ _site
 # Bundler
 .bundle/
 vendor/
+
+_posts/2015-04-18-welcome-to-jekyll.markdown
