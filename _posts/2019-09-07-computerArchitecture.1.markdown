@@ -14,15 +14,15 @@ categories: Computer_Architecture
 
 <h2 id="headings">전력의 경향</h2>
 <p>
-<img data-action="zoom" src='{{ "/blog/assets/post/powerwall.jpg" | relative_url }}' > 
+<img data-action="zoom" src='{{ "/assets/post/powerwall.jpg" | relative_url }}' > 
 clock rate은 2004년도 까지 계속 증가해왔으나 2004년 이후로 clock Frequency는 정체되었다.<br>
 
 $$ power = {CapacityLoad}\times{Voltage^2}\times{Frequency} $$
-Voltage = 5v->1v
-Frequency = x1000
-Power = x30
+Voltage = 5v → 1v<br>
+Frequency = x1000<br>
+Power = x30<br>
 칩의 전력 소모 공식을 사용하여 2004년의 전력 소모를 계산해보면 1982년보다 30배가 차이난다.<br>
-전력 소모량이 계속 증가하자 clock Frequency는 더 이상 증가할 수 없게 되었다.
+전력 소모량이 계속 증가하자 clock Frequency는 더 이상 증가할 수 없게 되었다.<br>
 </p>
 <hr>
 
