@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/mumu.PNG" title="Profile Picture" class="profile">
 <p>롤챔 아무무를 응원하는 마음에서 gomumu라는 계정을 만들었습니다. <br>
 게임과 관련된 아이디지만 공부하는 블로그입니다.
 </p>
