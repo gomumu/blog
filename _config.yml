@@ -51,11 +51,11 @@ descriptions:
   - cat: Algorithm
     desc: "Algorithm"
 
-  - cat: ComputerArchitecture
-    desc: "Computer Architecture"
+  - cat: Computer_Architecture
+    desc: "Computer_Architecture"
 
-  - cat: OperationSystem
-    desc: "Operation System"
+  - cat: Operation_System
+    desc: "Operation_System"
 
   - cat: Network
     desc: "Network"
@@ -63,14 +63,14 @@ descriptions:
   - cat: C++
     desc: "C++"
 
+  - cat: Python
+    desc: "Python"
+
   - cat: Develop
     desc: "Develop"
 
   - cat: Review
     desc: "Review"
-
-  - cat: Hobby
-    desc: "Hobby"
 
 # Social icons and sharing options
 #
