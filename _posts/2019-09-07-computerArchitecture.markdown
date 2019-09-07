@@ -153,7 +153,7 @@ sequences2 : ((1x4) + (2x1) + (3x1))/6 = 1.5<br>
 
 <h2 id="headings">Summary</h2>
 <p>
-$$ CPU Time = \frac{Instruction}{Program}\times\frac{Clock cycles}{Instruction}\times\frac{Seconds}{Clock cycle}$$
+$$ CPU Time = \frac{Instruction}{Program}\times\frac{ClockCycles}{Instruction}\times\frac{Seconds}{ClockCycle}$$
 Program은 Instruction 으로 구성 되어있고<br>
 Instruction은 Clock cycles로 구성되어있고<br>
 Clock cycle은 Seconds로 구성되어있다.<br>
