@@ -74,7 +74,7 @@ OP가 <b>add</b> mnemonic인 경우 다음과 같이 나타낸다.<br>
 필드의 길이는 6비트(26~ 31)이다.<br><br>
 
 <b>rs, rt, rd</b>는 소스 레지스터 및 대상 레지스터의 피연산자(operands).<br>
-0과 31사이의 숫자이며 레지스터에 <b>$X</b> 형식으로 저장된다.<br>
+0과 31사이의 숫자로 레지스터에 저장되며 <b>$X</b> 형식으로 쓴다.<br>
 각 필드의 길이는 5bit이다. <b>rs</b>(25 ~ 21), <b>rt</b>(20 ~ 16), <b>rd</b>(15 ~ 11)<br>
 * rs = register source<br>
 * rt = register target<br>
