@@ -27,19 +27,20 @@ Instruction Set이란 cpu에 정의되어있는 명령어들의 집합이다.<br
 <h2 id="headings">Instruction Set Architecture(ISA)</h2>
 <p>
 <img data-action="zoom" src='{{ "/assets/post/isa.jpg" | relative_url }}' >
-하드웨어와 소프트웨어 사이의 추상적인 인터페이스로 명령어 각 비트를 기능적으로 분할하여 의미를 부여하고 숫자화 한다.<br>
-최하위 레벨의 프로그래밍 인터페이스로, 프로세서가 실행할 수 있는 모든 명령어들을 포함한다. <br>
-ISA는 자료형, 명령어, 레지스터, 어드레싱 모드, 메모리 구조, 인터럽트, 예외 처리, 외부 입출력 등 프로그래밍과 관련된 컴퓨터 구조의 일부분이다. <br>
-ISA는 특정한 CPU 디자인으로 추가된 순수 명령어인 opcode의 집합 규격(기계어)을 포함한다. <br>
 
-ABI(Application Binary Interface) : 응용 프로그램과 운영 체제 또는 응용 프로그램과 해당 라이브러리, 응용 프로그램의 구성요소 간에서 사용되는 낮은 수준의 인터페이스이다. <br>
+<b>ISA</b>란 하드웨어와 소프트웨어 사이의 인터페이스이다. 프로세서가 실행할 수 있는 모든 명령어들을 포함하고 있다.<br>
+각 명령어 마다 비트 단위로 분할하여 기능에 맞게 의미를 부여하고 숫자화 되어있다.<br>
 </p>
 <hr>
 
 <h2 id="headings">MIPS operation</h2>
 <p>
+스탠포드 대학에서 MIPS를 제안했고, MIPS Technologies에서 상용화 했다.<br>
 operation(instruction) : 하나 이상의 input으로 output을 만든다.<br>
 operands : operation을 구성하는 레지스터의 피연산자를 말한다.<br>
+데이터가 Big Endian으로 저장된다. <br>
+주소는 byte형식이다.<br>
+워드 단위(32bit)로 접근하기 때문에 주소는 4의 배수이다.<br>
 MIPS operation은 크게 R-Type, I-Type, J-Type으로 나뉘어진다.<br>
 </p>
 <hr>
