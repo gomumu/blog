@@ -14,13 +14,12 @@ subtitle: "프로가 되자"
 email: g.gomumu@gmail.com
 name: MoonChanHong
 description: >
-  trace of life
+...
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://gomumu.github.io" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
@@ -49,16 +48,16 @@ jekyll-archives:
 # Category descriptions (for archive pages)
 descriptions:
   - cat: Algorithm
-    desc: "Algorithm"
+    desc: "알고리즘"
 
   - cat: Computer_Architecture
-    desc: "Computer_Architecture"
+    desc: "컴퓨터 구조"
 
   - cat: Operation_System
-    desc: "Operation_System"
+    desc: "운영체제"
 
   - cat: Network
-    desc: "Network"
+    desc: "네트워크"
 
   - cat: C++
     desc: "C++"
