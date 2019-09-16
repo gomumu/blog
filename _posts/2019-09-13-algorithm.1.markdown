@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "선택 정렬, 병합 정렬, 삽입 정렬"
+title:  "선택 정렬, 버블 정렬, 삽입 정렬"
 author: gomumu
 categories: Algorithm
 ---
@@ -28,7 +28,7 @@ $\frac{n(n-2)}{2}$의 점근적 복잡도는 $\theta(n^2)$이므로 수행시간
 </p>
 <hr>
 
-<h2>병합 정렬(selection sort)</h2>
+<h2>버블 정렬(Bubble sort)</h2>
 <p>
 <img data-action="zoom" src='{{ "/assets/post/BubbleSort.png" | relative_url }}' >
 1. 배열 A의 범위[1,n) 원소들을 차례로 현재 위치의 다음 원소와 비교하여 큰 경우 자리를 바꾼다. <br>
